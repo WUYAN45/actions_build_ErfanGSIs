@@ -2,6 +2,7 @@ name: build_ErfanGSIs
 
 on:
 #  release:
+
 #    types: [published]
 #  push:
 #    branches:
