@@ -57,7 +57,7 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/test.zip http://www.minjieren.com/download.aspx?id=1080
+              wget -O final/test.zip https://download.mobatek.net/2032020060430358/MobaXterm_Portable_v20.3.zip
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
