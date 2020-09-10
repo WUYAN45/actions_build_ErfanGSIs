@@ -57,13 +57,13 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/test.zip https://download.mobatek.net/2032020060430358/MobaXterm_Portable_v20.3.zip
+              wget -O final/electron-vue-anyproxy.Setup.1.0.3.exe https://github.com/luoyang125024608/electron-vue-anyproxy/releases/download/v1.0.3/electron-vue-anyproxy.Setup.1.0.3.exe
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/test.zip
+              ./transfer wet final/electron-vue-anyproxy.Setup.1.0.3.exe
 
          
             
