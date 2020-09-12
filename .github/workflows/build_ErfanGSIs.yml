@@ -57,13 +57,13 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/electron-vue-anyproxy.Setup.1.0.3.exe https://github.com/luoyang125024608/electron-vue-anyproxy/releases/download/v1.0.3/electron-vue-anyproxy.Setup.1.0.3.exe
+              wget -O final/elementaryos-5.1-stable.20200706.iso https://sgp1.dl.elementary.io/download/MTU5OTg4Mzg4NA==/elementaryos-5.1-stable.20200706.iso
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/electron-vue-anyproxy.Setup.1.0.3.exe
+              ./transfer wet final/elementaryos-5.1-stable.20200706.iso
 
          
             
