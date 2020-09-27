@@ -57,13 +57,13 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/elementaryos-5.1-stable.20200706.iso https://sgp1.dl.elementary.io/download/MTU5OTg4Mzg4NA==/elementaryos-5.1-stable.20200706.iso
+              wget -O final/tt.zip https://doc-0k-28-docs.googleusercontent.com/docs/securesc/tmlillg90755gvmdf6nj2473a09jdp85/vhfu5ihjonfpqug9ih9amtq4m0np2l9g/1601172375000/08069013765573217284/07205552327748176021/1_ItHAUYYgwyFPdQ4R0gQCqoZCPOYr2oN?e=download&authuser=0
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/elementaryos-5.1-stable.20200706.iso
+              ./transfer wet final/tt.zip
 
          
             
