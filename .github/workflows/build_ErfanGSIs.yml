@@ -57,7 +57,7 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/tt.zip https://doc-0k-28-docs.googleusercontent.com/docs/securesc/tmlillg90755gvmdf6nj2473a09jdp85/vhfu5ihjonfpqug9ih9amtq4m0np2l9g/1601172375000/08069013765573217284/07205552327748176021/1_ItHAUYYgwyFPdQ4R0gQCqoZCPOYr2oN?e=download&authuser=0
+              wget -O final/tt.zip https://artifacts.elastic.co/downloads/kibana/kibana-7.10.1-windows-x86_64.zip
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
