@@ -63,7 +63,7 @@ jobs:
        - name: Upload to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/tt.zip
+              ./transfer wet final/logstash.zip
 
          
             
