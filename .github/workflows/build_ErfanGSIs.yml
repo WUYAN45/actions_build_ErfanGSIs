@@ -57,7 +57,7 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/tt.zip https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.10.1-windows-x86_64.zip
+              wget -O final/logstash.zip https://artifacts.elastic.co/downloads/logstash/logstash-7.10.1-windows-x86_64.zip
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
