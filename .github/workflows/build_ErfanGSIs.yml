@@ -57,13 +57,13 @@ jobs:
        - name: download  
          run: |
               mkdir final
-              wget -O final/kibana.zip https://artifacts.elastic.co/downloads/kibana/kibana-6.8.12-windows-x86_64.zip
+              wget -O final/chinabeta_whyred_21.2.3.zip https://helix.uvscuti.workers.dev/chinabeta_whyred_21.2.3.zip
    #           zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
        - name: Upload to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/kibana.zip
+              ./transfer wet final/chinabeta_whyred_21.2.3.zip
 
          
             
